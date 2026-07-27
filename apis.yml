@@ -1,8 +1,13 @@
 aid: flow-commerce-global-e
 name: Flow Commerce (Global E)
-description: 'Flow Commerce (Global E) is a company surfaced as a portfolio company of bain-capital-ventures
-  and added to the API Evangelist network as a stub for enrichment. Sector: commerce. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Flow Commerce (now part of Global-e) is a cross-border ecommerce platform that lets online
+  merchants localize the entire international shopping experience. It provides localized pricing in
+  100+ currencies, localized checkout with international payment methods, guaranteed landed-cost
+  (duties and taxes) calculation, international shipping and returns, fraud and compliance handling,
+  and localized product feeds. Flow exposes these capabilities as a REST API defined in APIBuilder,
+  with first-party Ruby and Node.js client SDKs generated from that service definition. Flow.io was
+  acquired by Global-e and now operates as part of the Global-e cross-border enablement platform.
 url: https://raw.githubusercontent.com/api-evangelist/flow-commerce-global-e/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +15,29 @@ x-backed-by:
 - bain-capital-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://files.readme.io/c648547-small-Flow_Gradient_White_2x.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Commerce
+- Ecommerce
+- Cross-Border
+- Payments
+- Localization
+- Global-e
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +47,32 @@ maintainers:
 common:
 - type: Website
   url: https://www.flow.io/
+- type: DeveloperPortal
+  url: https://docs.flow.io/
+- type: Documentation
+  url: https://docs.flow.io/
+- type: APIReference
+  url: https://app.apibuilder.io/flow/api
+- type: Login
+  url: https://console.flow.io/login
+- type: Blog
+  url: https://www.flow.io/blog
+- type: Support
+  url: https://www.flow.io/contact-us
+- type: PrivacyPolicy
+  url: https://www.flow.io/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/flowcommerce
+- type: Packages
+  url: packages/flow-commerce-global-e-packages.yml
+- type: SDKs
+  url: packages/flow-commerce-global-e-packages.yml
+- type: LLMsTxt
+  url: llms/flow-commerce-global-e-llms.txt
+- type: DomainSecurity
+  url: security/flow-commerce-global-e-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

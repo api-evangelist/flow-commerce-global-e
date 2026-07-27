@@ -1,0 +1,23 @@
+# Flow Commerce (Global-e)
+
+> Flow Commerce is a cross-border ecommerce platform (now part of Global-e) that lets merchants localize the entire international shopping experience — 100+ currencies, localized checkout and payment methods, guaranteed landed-cost (duties and taxes) calculation, international shipping and returns, and localized product feeds. Flow exposes these capabilities as a REST API defined in APIBuilder, with generated Ruby and Node.js client SDKs.
+
+## APIs
+- [Flow REST API (APIBuilder service)](https://app.apibuilder.io/flow/api): The Flow Commerce REST API definition — orders, catalog/items, localization, experiences, payments, and logistics resources.
+
+## Docs
+- [Flow developer documentation](https://docs.flow.io/): Developer portal and API reference (password-gated).
+- [Flow console / login](https://console.flow.io/login): Merchant and developer console sign-in.
+- [Flow blog](https://www.flow.io/blog): Product and cross-border commerce articles.
+
+## SDKs
+- [Ruby SDK (flowcommerce)](https://rubygems.org/gems/flowcommerce): `gem install flowcommerce` — native Ruby client, source at github.com/flowcommerce/ruby-sdk.
+- [Node.js SDK (@flowio/node-sdk)](https://www.npmjs.com/package/@flowio/node-sdk): `npm install @flowio/node-sdk` — source at github.com/flowcommerce/node-sdk.
+
+## Source
+- [flowcommerce on GitHub](https://github.com/flowcommerce): First-party open-source repositories, including the SDKs, apibuilder tooling, and reference data (json-reference).
+
+## Company
+- [flow.io](https://www.flow.io/): Company site (redirects to Global-e).
+- [Privacy Policy](https://www.flow.io/privacy-policy)
+- [Contact / support](https://www.flow.io/contact-us)

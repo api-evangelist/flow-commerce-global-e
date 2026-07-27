@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: live probes of flow.io + api.flow.io /.well-known/*
+note: >-
+  No /.well-known/ discovery documents were served. api.flow.io does not resolve
+  to a public API gateway root (404) and www.flow.io publishes no security.txt.
+  Absence is recorded as valid data; no raw files were saved.
+hosts:
+  - host: https://www.flow.io
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+  - host: https://api.flow.io
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+      - path: /.well-known/openid-configuration
+        status: 404
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+      - path: /.well-known/api-catalog
+        status: 404

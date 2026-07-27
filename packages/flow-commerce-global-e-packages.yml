@@ -1,0 +1,27 @@
+generated: '2026-07-19'
+method: searched
+source: https://rubygems.org/gems/flowcommerce + https://www.npmjs.com/package/@flowio/node-sdk
+packages:
+  - language: ruby
+    registry: rubygems
+    name: flowcommerce
+    version: 0.3.9
+    url: https://rubygems.org/gems/flowcommerce
+    repository: https://github.com/flowcommerce/ruby-sdk
+    install: gem install flowcommerce
+    description: Native Ruby client for the Flow REST API (generated from the Flow APIBuilder service).
+    official: true
+  - language: javascript
+    registry: npm
+    name: "@flowio/node-sdk"
+    version: 1.1.9
+    url: https://www.npmjs.com/package/@flowio/node-sdk
+    repository: https://github.com/flowcommerce/node-sdk
+    install: npm install @flowio/node-sdk
+    description: Node.js apidoc clients for the Flow REST API.
+    official: true
+notes: >-
+  Flow's API is defined in APIBuilder (app.apibuilder.io/flow/api); the Ruby and
+  Node clients are generated from that service definition. Both are published
+  under first-party org accounts (rubygems flowcommerce / npm @flowio scope) with
+  source in the flowcommerce GitHub organization.
